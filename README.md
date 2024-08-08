@@ -14,6 +14,7 @@ Run `Pip3rm0n.bat` or `Pip3rm0n.sh` (.bat for Windows, .sh for Linux), press 1 o
 
 # How it works
 Pip3rm0n uses **a WiFi based kernel exploit** made by my friend, the exploit currently has no name but I like to call it Wipl0it.
+Files will be downloaded upon selecting number 1 when running `Pip3rm0n.bat` or `Pip3rm0n.sh`, how convenient.
 
 I have nothing left to say how it works, it's complicated, it's a huge project.
 

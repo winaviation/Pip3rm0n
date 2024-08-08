@@ -3,7 +3,7 @@
   <img src="Pip3rm0n.png" width=250 />
 </p>
 
-<h3 style="textsize: 20px;">World's best iOS wireless jailbreak for all devices on all iOS.</h3>
+<h3 align="center">World's best iOS wireless jailbreak for all devices on all iOS.</h3>
 
 Say hi to Pip3rm0n, a new wireless iOS jailbreak made by [the owner of this repo], licensed under GPL-3.0 license. Made for every iOS devices.
 

@@ -13,7 +13,7 @@ Pip3rm0n is supported on both Windows and Linux (Debian/Ubuntu recommended), Mac
 Run `Pip3rm0n.bat` or `Pip3rm0n.sh` (.bat for Windows, .sh for Linux), press 1 on your keyboard to jailbreak, it will detect the nearest iOS device that's connected to the same WiFi as your PC then jailbreak it.
 
 # How it works
-Pip3rm0n uses **a WiFi based kernel exploit made by my friend, the exploit currently has no name but I like to call it Wipl0it**.
+Pip3rm0n uses **a WiFi based kernel exploit** made by my friend, the exploit currently has no name but I like to call it Wipl0it.
 
 I have nothing left to say how it works, it's complicated, it's a huge project.
 

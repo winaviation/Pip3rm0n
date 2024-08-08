@@ -1,6 +1,6 @@
 # Pip3rm0n
 <p align="center">
-  <img src="Pip3rm0n.png" width=100 />
+  <img src="Pip3rm0n.png" width=250 />
 </p>
 World's best iOS wireless jailbreak for all devices on all iOS.
 

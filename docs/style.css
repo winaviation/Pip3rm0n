@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=nunito&family=Nunito&display=swap');html { font-family: 'Nunito';}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: white;
+
+header {
+  background-image: linear-gradient(to bottom right, #5772f0 , #a30bf4);
+  margin-top: -35px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 25px;
+}
+
+.body {
+  text-align: center;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(to bottom right, #a30bf4 , #5772f0);
+  border: solid;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background 0.5s, transform 0.6s, border 0s;
+}
+
+
+
+button:active {
+  transform: scale(0.9);
+  transition: 0.1s;
+}
+
+#smol {
+  font-size: 10px;
+  text-align: center;
+  padding-top: 10px
+}
+
+.button {
+  text-align: center;
+}

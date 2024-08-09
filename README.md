@@ -26,7 +26,7 @@
 Pip3rm0n is supported on every OSes that has a web browser, not recommended using Internet Explorer tho, the website will surely break.
 
 # Usage
-Click on `Initialize` right from the homepage, it will detect the nearest iOS device that's connected to the same WiFi as your PC/mobile then jailbreak it.
+Click on `Initialize` right from the homepage of the [website](https://winaviation.github.io/Pip3rm0n), it will detect the nearest iOS device that's connected to the same WiFi as your PC/mobile then jailbreak it.
 
 # How it works
 Pip3rm0n uses **a WiFi based kernel exploit** made by my friend, the exploit currently has no name but I like to call it Wipl0it.

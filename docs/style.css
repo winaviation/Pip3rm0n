@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=nunito&family=Nunito&display=swap');html { font-family: 'Nunito';}
 
 html, body {
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding: 0;
   background-color: #141414;
   color: white;

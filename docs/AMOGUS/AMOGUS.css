@@ -1,6 +1,8 @@
 @font-face {
-  font-family: Grizzly;
-  src: url(AMOGUS.ttf);
+    font-family: 'Grizzly';
+    src: url('https://winaviation.github.io/Pip3rm0n/AMOGUS/AMOGUS.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
 }
 
 html, body {

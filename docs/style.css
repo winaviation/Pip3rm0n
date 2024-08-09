@@ -1,1 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=nunito&family=Nunito&display=swap');html { font-family: 'Nunito';}
 
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #141414;
+  color: white;
+
+header {
+  background: rgb(111,0,255);
+  background: linear-gradient(90deg, rgba(111,0,255,1) 35%, rgba(25, 159, 230, 1) 100%);
+  margin-top: -35px;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 25px;
+}

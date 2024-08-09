@@ -1,9 +1,9 @@
 <h1 align="center">Pip3rm0n </h1> 
 
 <p align="center">
-  <sub><sup>is that a motherfucking u/pipermommen reference???</sup></sub>
   <img src="Pip3rm0n.png" width=250 />
 </p>
+<p align="center"><sub><sup>is that a motherfucking u/pipermommen reference???</sup></sub></p>
 
 <h3 align="center">World's best iOS online wireless jailbreak for all devices on all iOS.</h3>
 <br>

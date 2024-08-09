@@ -1,4 +1,4 @@
-<h1 align="center">Pip3rm0n</h1> ^is ^that ^a ^pipermommen ^reference????
+<h1 align="center">Pip3rm0n</h1> <sub><sup>is that a motherfucking u/pipermommen reference???</sup></sub>
 <p align="center">
   <img src="Pip3rm0n.png" width=250 />
 </p>

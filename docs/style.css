@@ -2,6 +2,7 @@
 
 html, body {
   text-align: justify;
+  text-justify: inter-word;
   background-color: #141414;
   color: white;
 

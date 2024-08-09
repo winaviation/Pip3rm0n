@@ -7,8 +7,7 @@ html, body {
   color: white;
 
 header {
-  background: rgb(111,0,255);
-  background: linear-gradient(90deg, rgba(111,0,255,1) 35%, rgba(25, 159, 230, 1) 100%);
+  background-image: linear-gradient(red, yellow);
   margin-top: -35px;
   height: 150px;
   text-align: center;

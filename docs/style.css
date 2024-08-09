@@ -14,7 +14,7 @@ header {
 }
 
 .body {
-  text-align: center;
+  text-align: center, justify;
   padding: 0 20px;
 }
 

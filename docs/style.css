@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=nunito&family=Nunito&display=swap');html { font-family: 'Nunito';}
 
-html, body {
+html {
   background-color: #141414;
   color: white;
-
+}
 header {
   background-image: linear-gradient(to bottom right, #5772f0 , #a30bf4);
   margin-top: -35px;
@@ -13,10 +13,12 @@ header {
   font-size: 25px;
 }
 
-  
+body {
+  padding: 0 20px;
+}
 .body {
   text-align: center;
-  padding: 0 20px;
+
 }
 
 button {

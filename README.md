@@ -3,10 +3,10 @@
   <img src="Pip3rm0n.png" width=250 />
 </p>
 
-<h3 align="center">World's best iOS wireless jailbreak for all devices on all iOS.</h3>
+<h3 align="center">World's best iOS online wireless jailbreak for all devices on all iOS.</h3>
 <br>
 
-<p align="center">Say hi to Pip3rm0n, a new wireless iOS jailbreak made by [the owner of this repo], licensed under GPL-3.0 license. Made for every iOS devices.</p>
+<p align="center">Say hi to Pip3rm0n, a new online wireless iOS jailbreak made by [the owner of this repo], licensed under GPL-3.0 license. Made for every iOS devices.</p>
 <br>
 
 <h1 align="center">DISCLAIMER</h1>
@@ -21,14 +21,14 @@
 <br>
 
 # Supported Enviroments
-Pip3rm0n is supported on both Windows and Linux (Debian/Ubuntu recommended), MacOS support probably wont be coming because I do not own a mac [insert sad face]
+Pip3rm0n is supported on every OSes that has a web browser, not recommended using Internet Explorer tho, the website will surely break.
 
 # Usage
-Run `Pip3rm0n.bat` or `Pip3rm0n.sh` (.bat for Windows, .sh for Linux), press 1 on your keyboard to jailbreak, it will detect the nearest iOS device that's connected to the same WiFi as your PC then jailbreak it.
+Click on `Initialize` right from the homepage, it will detect the nearest iOS device that's connected to the same WiFi as your PC then jailbreak it.
 
 # How it works
 Pip3rm0n uses **a WiFi based kernel exploit** made by my friend, the exploit currently has no name but I like to call it Wipl0it.
-Files will be downloaded upon selecting number 1 when running `Pip3rm0n.bat` or `Pip3rm0n.sh`, how convenient.
+Files will be downloaded server-side when you click on `Initialize`.
 
 I have nothing left to say how it works, it's complicated, it's a huge project.
 

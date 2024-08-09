@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=nunito&family=Nunito&display=swap');html { font-family: 'Nunito';}
 
 html, body {
-  text-align: justify;
-  text-justify: inter-word;
   background-color: #141414;
   color: white;
 
@@ -15,6 +13,11 @@ header {
   font-size: 25px;
 }
 
+body {
+  text-align: justify;
+  text-justify: inter-word;
+}
+  
 .body {
   text-align: center;
   padding: 0 20px;

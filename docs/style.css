@@ -11,12 +11,15 @@ header {
   text-align: center;
   line-height: 150px;
   font-size: 25px;
+  margin-left: -35px
+  margin-right: -35px
 }
 
   
 }
 .body {
   text-align: center;
+  padding: 0 20px;
 }
 
 button {

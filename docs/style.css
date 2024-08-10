@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=nunito&family=Nunito&display=swap');html { font-family: 'Nunito';}
 
-html {
+html, body {
   background-color: #141414;
   color: white;
 }
@@ -13,12 +13,10 @@ header {
   font-size: 25px;
 }
 
-body {
-  padding: 0 20px;
+  
 }
 .body {
   text-align: center;
-
 }
 
 button {

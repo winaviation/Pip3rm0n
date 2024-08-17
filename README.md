@@ -10,6 +10,7 @@
 
 <p align="center">Say hi to Pip3rm0n, a new online wireless iOS jailbreak made by [the owner of this repo], licensed under GPL-3.0 license. Made for every iOS devices.</p>
 <br>
+  https://www.reddit.com/r/JelBrek/s/N9fqqZ8BUb
 
 <h1 align="center">DISCLAIMER</h1>
 

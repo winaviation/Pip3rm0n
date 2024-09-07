@@ -1,0 +1,185 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objects = {
+		/* Begin PBXBuildFile section */
+		9A1B2C3D4E5F6789A0B1C2D3 = {
+			isa = PBXBuildFile;
+			fileRef = 1234567890ABCDEF12345678;
+			settings = { };
+		};
+		9A1B2C3D4E5F6789A0B1C2D4 = {
+			isa = PBXBuildFile;
+			fileRef = 1234567890ABCDEF12345679;
+			settings = { };
+		};
+		/* End PBXBuildFile section */
+
+		/* Begin PBXFileReference section */
+		1234567890ABCDEF12345678 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			name = ViewController.m;
+			path = Source/ViewController.m;
+			sourceTree = "<group>";
+		};
+		1234567890ABCDEF12345679 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.swift;
+			name = AppDelegate.swift;
+			path = Source/AppDelegate.swift;
+			sourceTree = "<group>";
+		};
+		/* End PBXFileReference section */
+
+		/* Begin PBXGroup section */
+		AB1C2D3E4F5A6789A0B1C2D3 = {
+			isa = PBXGroup;
+			children = (
+				1234567890ABCDEF12345678,
+				1234567890ABCDEF12345679
+			);
+			sourceTree = "<group>";
+		};
+		/* End PBXGroup section */
+
+		/* Begin PBXProject section */
+		9A1B2C3D4E5F6789A0B1C2D4 = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					"9A1B2C3D4E5F6789A0B1C2D4" = {
+						BuildConfigurationList = "9A1B2C3D4E5F6789A0B1C2D5";
+					};
+				};
+			};
+			buildConfigurationList = "9A1B2C3D4E5F6789A0B1C2D5";
+			developmentRegion = en;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = "AB1C2D3E4F5A6789A0B1C2D3";
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"9A1B2C3D4E5F6789A0B1C2D6"
+			);
+		};
+		/* End PBXProject section */
+
+		/* Begin PBXNativeTarget section */
+		9A1B2C3D4E5F6789A0B1C2D6 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "9A1B2C3D4E5F6789A0B1C2D5";
+			buildPhases = (
+				"9A1B2C3D4E5F6789A0B1C2D7",
+				"9A1B2C3D4E5F6789A0B1C2D8"
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ComplexApp;
+			productName = ComplexApp;
+			productReference = "1234567890ABCDEF12345678";
+			productType = "com.apple.product-type.application";
+		};
+		/* End PBXNativeTarget section */
+
+		/* Begin PBXBuildConfiguration section */
+		9A1B2C3D4E5F6789A0B1C2D5 = {
+			isa = PBXBuildConfiguration;
+			baseConfigurationReference = "1234567890ABCDEF12345680";
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1"
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Libraries"
+				);
+				SDKROOT = iphoneos;
+				OTHER_LDFLAGS = (
+					"-ObjC"
+				);
+			};
+			name = Debug;
+		};
+		/* End PBXBuildConfiguration section */
+
+		/* Begin PBXFrameworksBuildPhase section */
+		9A1B2C3D4E5F6789A0B1C2D7 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1B2C3D4E5F6789A0B1C2D8
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		/* End PBXFrameworksBuildPhase section */
+
+		/* Begin PBXResourcesBuildPhase section */
+		9A1B2C3D4E5F6789A0B1C2D8 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1B2C3D4E5F6789A0B1C2D9
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		/* End PBXResourcesBuildPhase section */
+
+		/* Begin PBXCopyFilesBuildPhase section */
+		9A1B2C3D4E5F6789A0B1C2D9 = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				9A1B2C3D4E5F6789A0B1C2DA
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		/* End PBXCopyFilesBuildPhase section */
+
+		/* Begin PBXFileReference section */
+		1234567890ABCDEF12345680 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = Info.plist;
+			path = Info.plist;
+			sourceTree = "<group>";
+		};
+		/* End PBXFileReference section */
+
+		/* Begin PBXBuildFile section */
+		9A1B2C3D4E5F6789A0B1C2DA = {
+			isa = PBXBuildFile;
+			fileRef = 1234567890ABCDEF12345681;
+			settings = { };
+		};
+		/* End PBXBuildFile section */
+
+		/* Begin PBXFileReference section */
+		1234567890ABCDEF12345681 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.application;
+			name = ComplexApp.app;
+			path = Products/ComplexApp.app;
+			sourceTree = "<group>";
+		};
+		/* End PBXFileReference section */
+
+	};
+	rootObject = 9A1B2C3D4E5F6789A0B1C2D4;
+}
+  

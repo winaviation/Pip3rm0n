@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace version = "1.0">
+    <FileRef location="group:Project.xcodeproj">
+        <Groups>
+            <Group name="MainGroup">
+                <FileRef location="group:Sources"/>
+                <FileRef location="group:Resources"/>
+                <FileRef location="group:Frameworks"/>
+            </Group>
+            <Group name="SupportingFiles">
+                <FileRef location="group:SupportingFiles/InfoPlist"/>
+                <FileRef location="group:SupportingFiles/Configurations"/>
+            </Group>
+            <Group name="Frameworks">
+                <FileRef location="group:Frameworks/ExternalFrameworks"/>
+            </Group>
+        </Groups>
+    </FileRef>
+    <FileRef location="group:Podfile">
+        <Groups>
+            <Group name="Pods">
+                <FileRef location="group:Pods/Pods.xcodeproj"/>
+                <FileRef location="group:Pods/Headers"/>
+                <FileRef location="group:Pods/Resources"/>
+            </Group>
+        </Groups>
+    </FileRef>
+    <FileRef location="group:WorkspaceSettings">
+        <Groups>
+            <Group name="Settings">
+                <FileRef location="group:WorkspaceSettings/CustomSettings"/>
+            </Group>
+        </Groups>
+    </FileRef>
+    <FileRef location="group:Configurations">
+        <Groups>
+            <Group name="Configurations">
+                <FileRef location="group:Configurations/Config1.xcconfig"/>
+                <FileRef location="group:Configurations/Config2.xcconfig"/>
+                <FileRef location="group:Configurations/Config3.xcconfig"/>
+            </Group>
+        </Groups>
+    </FileRef>
+    <FileRef location="group:Additional">
+        <Groups>
+            <Group name="AdditionalResources">
+                <FileRef location="group:Additional/Resource1"/>
+                <FileRef location="group:Additional/Resource2"/>
+            </Group>
+        </Groups>
+    </FileRef>
+    <FileRef location="group:Legacy">
+        <Groups>
+            <Group name="LegacySupport">
+                <FileRef location="group:Legacy/OldFiles"/>
+            </Group>
+        </Groups>
+    </FileRef>
+</Workspace>
+  

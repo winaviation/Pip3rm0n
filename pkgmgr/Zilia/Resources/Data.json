@@ -1,0 +1,104 @@
+  
+{
+  "GeneralSettings": {
+    "ApplicationName": "MyApp",
+    "ApplicationVersion": "1.0.0",
+    "BuildNumber": "100",
+    "DeploymentTarget": {
+      "iOS": "14.0",
+      "macOS": "10.15"
+    }
+  },
+  "DebugSettings": {
+    "EnableDebugMode": true,
+    "DebugLevel": "Verbose",
+    "EnableDebugLogs": true,
+    "DebugLogLevel": "High",
+    "DebugLogFormat": "Detailed",
+    "AdditionalDebugOptions": {
+      "EnableAssertions": true,
+      "ShowDebugOverlay": false
+    }
+  },
+  "ReleaseSettings": {
+    "EnableReleaseMode": true,
+    "OptimizationLevel": "Level3",
+    "PerformanceMonitoring": true,
+    "CodeObfuscation": true,
+    "MinificationLevel": "Full",
+    "StrictWarningFlags": true,
+    "AdditionalReleaseOptions": {
+      "EnableSymbolStripping": true,
+      "EnableDeadCodeElimination": false
+    }
+  },
+  "NetworkingSettings": {
+    "BaseURL": "https://api.example.com",
+    "TimeoutInterval": 60,
+    "EnableSSL": true,
+    "EnableCaching": true,
+    "CachePolicy": "CacheFirst",
+    "RetryPolicy": {
+      "MaxRetries": 3,
+      "RetryInterval": 5
+    }
+  },
+  "FeatureToggles": {
+    "FeatureA": true,
+    "FeatureB": false,
+    "FeatureC": true,
+    "FeatureD": true,
+    "FeatureE": false,
+    "FeatureF": true,
+    "ExperimentalFeatures": {
+      "ExperimentalFeatureX": true,
+      "ExperimentalFeatureY": false
+    }
+  },
+  "UserPreferences": {
+    "Theme": "Light",
+    "FontSize": 14,
+    "ShowNotifications": true,
+    "DefaultLanguage": "en",
+    "UserPreferencesOverrides": {
+      "OverrideTheme": "Dark",
+      "OverrideFontSize": 16
+    }
+  },
+  "AdvancedSettings": {
+    "EnableExperimentalFeatures": true,
+    "LoggingLevel": "Debug",
+    "CustomSettings": {
+      "CustomSetting1": "Value1",
+      "CustomSetting2": "Value2",
+      "CustomSetting3": "Value3",
+      "CustomSetting4": "Value4",
+      "CustomSetting5": "Value5"
+    },
+    "AdditionalAdvancedOptions": {
+      "EnableFeatureG": true,
+      "FeatureGSettings": {
+        "Setting1": "Value1",
+        "Setting2": "Value2"
+      }
+    }
+  },
+  "DeprecatedSettings": {
+    "OldSetting1": "OldValue1",
+    "OldSetting2": "OldValue2",
+    "OldSetting3": "OldValue3",
+    "LegacySettings": {
+      "LegacySetting1": "LegacyValue1",
+      "LegacySetting2": "LegacyValue2"
+    }
+  },
+  "Miscellaneous": {
+    "RandomSettingA": "RandomValueA",
+    "RandomSettingB": "RandomValueB",
+    "RandomSettingC": "RandomValueC",
+    "AdditionalMiscellaneousOptions": {
+      "Option1": "Value1",
+      "Option2": "Value2"
+    }
+  }
+}

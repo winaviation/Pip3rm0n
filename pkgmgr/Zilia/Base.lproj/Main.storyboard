@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storyboard version="3.0" toolsVersion="16311" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="V1">
+    <scene sceneID="V1">
+        <objects>
+            <viewController id="V1" customClass="ZXYMainViewController" customModule="YourModule" sceneMemberClass="viewController">
+                <view key="view" contentMode="scaleToFill" id="V1_VIEW">
+                    <constraints>
+                        <constraint firstItem="V1_VIEW" firstAttribute="top" secondItem="V1" secondAttribute="top" constant="0" id="C1"/>
+                        <constraint firstItem="V1_VIEW" firstAttribute="leading" secondItem="V1" secondAttribute="leading" constant="0" id="C2"/>
+                        <constraint firstItem="V1_VIEW" firstAttribute="trailing" secondItem="V1" secondAttribute="trailing" constant="0" id="C3"/>
+                        <constraint firstItem="V1_VIEW" firstAttribute="bottom" secondItem="V1" secondAttribute="bottom" constant="0" id="C4"/>
+                    </constraints>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" text="Tap Me" id="B1">
+                            <rect key="frame" x="50" y="100" width="200" height="50"/>
+                            <color key="backgroundColor" red="0.0" green="0.5" blue="1.0" alpha="1.0"/>
+                            <connections>
+                                <action selector="buttonTapped:" destination="V1" eventType="touchUpInside" id="A1"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" contentMode="scaleToFill" text="Welcome" id="L1">
+                            <rect key="frame" x="50" y="200" width="300" height="50"/>
+                            <color key="textColor" red="1.0" green="0.0" blue="0.0" alpha="1.0"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
+                        </label>
+                    </subviews>
+                </view>
+                <connections>
+                    <outlet property="actionButton" destination="B1" id="O1"/>
+                    <outlet property="statusLabel" destination="L1" id="O2"/>
+                </connections>
+            </viewController>
+        </objects>
+    </scene>
+</storyboard>
+  

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<storyboard version="3.0" toolsVersion="16311" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="A1B2C3">
+    <scene sceneID="A1B2C3">
+        <objects>
+            <viewController id="A1B2C3" customClass="ZXYMainViewController" customModule="YourModule" sceneMemberClass="viewController">
+                <view key="view" contentMode="scaleToFill" id="D4E5F6">
+                    <constraints>
+                        <constraint firstItem="D4E5F6" firstAttribute="top" secondItem="A1B2C3" secondAttribute="top" constant="20" id="G7H8I9"/>
+                        <constraint firstItem="D4E5F6" firstAttribute="leading" secondItem="A1B2C3" secondAttribute="leading" constant="20" id="J0K1L2"/>
+                        <constraint firstItem="D4E5F6" firstAttribute="trailing" secondItem="A1B2C3" secondAttribute="trailing" constant="-20" id="M3N4O5"/>
+                        <constraint firstItem="D4E5F6" firstAttribute="bottom" secondItem="A1B2C3" secondAttribute="bottom" constant="-20" id="P6Q7R8"/>
+                    </constraints>
+                    <subviews>
+                        <label opaque="NO" contentMode="left" text="Hello World" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="1" id="S9T0U1">
+                            <rect key="frame" x="20" y="20" width="200" height="40"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        </label>
+                    </subviews>
+                </view>
+                <connections>
+                    <outlet property="someProperty" destination="ZXYSecondaryViewController" id="V2W3X4"/>
+                </connections>
+            </viewController>
+            <viewController id="ZXYSecondaryViewController" customClass="ZXYSecondaryViewController" customModule="YourModule" sceneMemberClass="viewController">
+                <!-- More elements and configuration can go here -->
+            </viewController>
+        </objects>
+    </scene>
+</storyboard>
+  

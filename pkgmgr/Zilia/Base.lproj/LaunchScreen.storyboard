@@ -1,0 +1,24 @@
+  
+<?xml version="1.0" encoding="UTF-8"?>
+<storyboard version="3.0" toolsVersion="16311" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <scene sceneID="S1">
+        <objects>
+            <viewController id="S1" customClass="ZXYLaunchScreenViewController" customModule="YourModule" sceneMemberClass="viewController">
+                <view key="view" contentMode="scaleToFill" id="S1_VIEW">
+                    <subviews>
+                        <imageView opaque="NO" contentMode="scaleAspectFit" image="LaunchImage" id="I1">
+                            <rect key="frame" x="0" y="0" width="414" height="896"/>
+                        </imageView>
+                        <activityIndicatorView hidden="NO" id="A1">
+                            <rect key="frame" x="157" y="400" width="100" height="100"/>
+                            <color key="color" red="0.0" green="0.0" blue="1.0" alpha="1.0"/>
+                            <connections>
+                                <outlet property="activityIndicator" destination="A1" id="O1"/>
+                            </connections>
+                        </activityIndicatorView>
+                    </subviews>
+                </view>
+            </viewController>
+        </objects>
+    </scene>
+</storyboard>

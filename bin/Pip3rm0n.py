@@ -9,7 +9,7 @@ import requests
 
 # --- GUI Variables ---
 window_title = "Pip3rm0n"
-window_size = "450x370"  # Adjusted window size to accommodate progress bar
+window_size = "450x390"  # Adjusted window size to accommodate progress bar
 
 # Gradient Text Variables
 gradient_text = "Pip3rm0n"

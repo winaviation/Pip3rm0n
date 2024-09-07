@@ -22,6 +22,7 @@ button_start = "START"
 button_hack = "Hack a mainframe"
 checkbox_rootful = "Rootful"
 checkbox_wireful = "Wireful"
+checkbox_restore = "Restore RootFS"
 checkbox_type = "Semi-untethered (by default, it's untethered)"
 checkbox_shell = "iDownload DevShell"
 checkbox_cure = "Cure pneumonoultramicroscopicsilicovolcanoconiosis (underrated)"
@@ -216,6 +217,10 @@ checkbox.pack(pady=1)
 
 checkbox_var = tk.BooleanVar()
 checkbox = tk.Checkbutton(root, text=checkbox_wireful, variable=checkbox_var, command=on_checkbox_toggle, bg=checkbox_bg_color, fg=checkbox_text_color)  # Set checkbox background and text color
+checkbox.pack(pady=1)
+
+checkbox_var = tk.BooleanVar()
+checkbox = tk.Checkbutton(root, text=checkbox_restore, variable=checkbox_var, command=on_checkbox_toggle, bg=checkbox_bg_color, fg=checkbox_text_color)  # Set checkbox background and text color
 checkbox.pack(pady=1)
 
 checkbox_var = tk.BooleanVar()

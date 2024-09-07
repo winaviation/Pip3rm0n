@@ -5,10 +5,11 @@
 </p>
 <p align="center"><sub><sup>is that a motherfucking u/pipermommen reference???</sup></sub></p>
 
-<h3 align="center">World's best iOS online wireless jailbreak for all devices on all iOS.</h3>
+<h3 align="center">World's best iOS jailbreak for all devices on all iOS.</h3>
 <br>
 
-<p align="center">Say hi to Pip3rm0n, a new online wireless iOS jailbreak made by [the owner of this repo], licensed under GPL-3.0 license. Made for every iOS devices.</p>
+<p align="center">Say hi to Pip3rm0n, a new iOS jailbreak made by [the owner of this repo], licensed under GPL-3.0 license. Made for every iOS devices.</p>
+<p align="center"><sub><sup>As of now, the downgrading tool has been delayed to the Pip3rm0n 2.0.0beta2 update.</sup></sub></p>
 <br>
   <p align="center">https://www.reddit.com/r/JelBrek/s/N9fqqZ8BUb</p>
 <h1 align="center">DISCLAIMER</h1>
@@ -23,16 +24,16 @@
 <br>
 
 # Supported Enviroments
-Pip3rm0n is supported on every OSes that has a web browser, not recommended using Internet Explorer tho, the website will surely break.
+Pip3rm0n is (currently) only supported on Windows 8 or later.
 
 # Usage
-Click on `Initialize` right from the homepage of the [website](https://winaviation.github.io/Pip3rm0n), it will detect the nearest iOS device that's connected to the same WiFi as your PC/mobile then jailbreak it.
+Click on `START` right in the middle of the GUI, you may wanna use some options you may like, for example, curing pneumonoultramicroscopicsilicovolcanoconiosis (most underrated option).
 
 # How it works
 Pip3rm0n uses **a WiFi based kernel exploit** made by my friend, the exploit currently has no name but I like to call it Wipl0it.
-Files will be downloaded server-side when you click on `Initialize`.
+Some files will be downloaded server-side when you click on `START`.
 
-I have nothing left to say how it works, it's complicated, it's a huge project.
+Pip3rm0n also provides "Hack a mainframe" tool, using the same mainframe hacking API Pip3rm0n used to hack Apple's mainframe to block updates.
 
 # Credits
-Huge thanks to r/JelBrek for inspiring me to make this project!
+Huge thanks to r/JelBrek and r/masterhacker for inspiring me to make this project!

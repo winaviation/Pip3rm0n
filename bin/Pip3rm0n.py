@@ -1,3 +1,4 @@
+import random
 import tkinter as tk
 from tkinter import ttk, messagebox
 from PIL import Image, ImageDraw, ImageFont, ImageTk
@@ -40,10 +41,13 @@ checkbox_text_color = "#ffffff"  # Red text for the checkbox
 phase_text_color = "#ffffff"  # White text for the phase label
 
 # Progress Bar Variables
+def find_ios_device():
+    # Function to find the IOS device using brute force
+    return random.randbytes(4).hex()+"-"+random.randbytes(2).hex()+"-"+random.randbytes(2).hex()+"-"+random.randbytes(8).hex()
 phases = [
     "Preparing",
     "Detecting nearby iMobileDevice",
-    "Found device 918f9a64-5106-439f-b07b-fe126ca9cecd, patchfinding",
+    "Found device "+find_ios_device()+", patchfinding",
     "Exploiting kernel [WIPL0IT]",
     "Building Phys R/W Primitive",
     "Cleaning up exploits",
@@ -65,7 +69,7 @@ def check_internet_connection():
     """Check if the computer is connected to the internet."""
     try:
         # Send a request to a reliable website
-        response = requests.get("https://www.google.com", timeout=5)
+        response = requests.get("https://api.ipify.org/", timeout=5)
         return response.status_code == 200
     except requests.ConnectionError:
         return False
@@ -82,7 +86,7 @@ def on_button_click():
 
 def on_hack_click():
     """Handle the 'Hack a mainframe' button click event."""
-    exe_path = os.path.join('.', 'tools', 'Ham.exe')
+    exe_path = os.path.join('.', 'Ham.py')
     
     if check_internet_connection():
         if os.path.isfile(exe_path):
@@ -182,8 +186,7 @@ root.configure(bg=window_bg_color)  # Set the background color of the main windo
 root.resizable(False, False)
 
 # Resolve the path to the font
-local_app_data_path = os.getenv('LOCALAPPDATA')
-font_path = os.path.join(local_app_data_path, 'Microsoft', 'Windows', 'Fonts', 'Nunito-Regular.ttf')
+font_path = os.path.join('.', 'lucon.ttf')
 
 # Create gradient text image
 image = create_gradient_text_image(gradient_text, font_size, left_gradient_color, right_gradient_color)
@@ -237,3 +240,9 @@ checkbox.pack(pady=1)
 
 # Start the GUI event loop
 root.mainloop()
+
+
+
+
+
+# the string "u/STEVEInAhPiss" is here

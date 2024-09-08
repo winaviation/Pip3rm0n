@@ -23,8 +23,18 @@
 <br>
 <br>
 
-# Supported Enviroments
-Pip3rm0n is (currently) only supported on Windows 8 or later.
+# Supported Environments
+Pip3rm0n can run on Windows 7 or later, on Linux, on Raspberry Pie, on Termux or a Flipper Zero running linux.
+
+# Requirements
+Pip3rm0n requires Python 3 with the following libraries installed via PIP:
+- tkinter
+- webbrowser
+- os
+- random
+- Pillow 10
+- zlib
+- Python
 
 # Usage
 Click on `START` right in the middle of the GUI, you may wanna use some options you may like, for example, curing pneumonoultramicroscopicsilicovolcanoconiosis (most underrated option).
